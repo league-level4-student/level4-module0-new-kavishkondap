@@ -15,7 +15,11 @@ public class EncapsulationDemo {
      */
 
     public static void main(String[] args) {
-
+    	Car car = new Car (100, 200, "blue", 50);
+    	SUV suv = new SUV (400, 300, "yellow", 350, 17);
+    	car.mpg = 17;
+    	car.drive();
+    	suv.tankCapacity = 700;
     }
 
 }
